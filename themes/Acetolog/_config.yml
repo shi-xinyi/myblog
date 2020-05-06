@@ -4,7 +4,7 @@ Home: /
 
 language: en
 
-author: iGuan7u
+author: 
 description: blog
 
 # AvatorURL
@@ -31,7 +31,7 @@ disqus:
 
 contact:
   enable: true
-  description: try to keep real
+  description: 
 
   twitter:
     enable: false
@@ -46,12 +46,16 @@ contact:
     username: weibo_username
 
   facebook:
-    enable: true
+    enable: false
     username: facebook_username
 
   instagram:
     enable: true
     username: instagram_username
+
+  weChat:
+    enable: true
+    username: weChat_username
 
 
 # Analytice
@@ -73,7 +77,7 @@ google_analytice:
 # which is useful in China mainland.
 
 ICPLicense:
-  enable: true
+  enable: false
   content: "Fill IPCLicense"
 
 # EtraPlugin
